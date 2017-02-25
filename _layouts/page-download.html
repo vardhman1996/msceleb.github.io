@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <br><br><br><br>
+            <nav class="navbar navbar-default sidebar" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                            Choose the dataset
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="sampleset" role="tab">Sample Data</a></li>
+                            <li><a href="full" role="tab">Full Image Thumbnails</a></li>
+                            <li><a href="cropped" role="tab">Cropped Face Images</a></li>
+                            <li><a href="aligned" role="tab">Aligned Face Images</a></li>
+                            <li><a href="list" role="tab">Entity List</a></li>
+                            <li><a href="devset" role="tab">Development Set</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="col-md-9">
+            <div class="paenl panel-default">
+                <div class="panel-body">
+                    <h2>Attention!: <a href="http://msceleb.blob.core.windows.net/ms-celeb-v1-split/MSR_LA_Data_MSCeleb_IRC.pdf"><u>agree MSR-LA before downloading</u></a></h2>
+                    {{ content }}
+                    <br>
+                    <h2>Disclaimers</h2>
+                    <ol>
+                        <li>The data is released for <b>non-commercial research purpose only</b>. You have to read and agree the <a href="http://msceleb.blob.core.windows.net/ms-celeb-v1-split/MSR_LA_Data_MSCeleb_IRC.pdf">MSR Data License Agreement</a> before you downloading the data;</li>
+                        <li>Please <a>contact us</a> If you are a celebrity but do not want to be included in this data set. We will remove related entries by request;</li>
+                        <li>In all the related publications, please cite the paper <a href="https://www.microsoft.com/en-us/research/publication/ms-celeb-1m-dataset-benchmark-large-scale-face-recognition-2/">"MS-Celeb-1M: A Dataset and Benchmark for Large Scale Face Recognition"</a> and provide the link to <a href="http://msceleb.org/">http://msceleb.org</a>.</li>
+                    </ol>
+                    <pre>
+    @INPROCEEDINGS { guo2016msceleb,
+        author = {Guo, Yandong and Zhang, Lei and Hu, Yuxiao and He, Xiaodong and Gao, Jianfeng},
+        title = {M{S}-{C}eleb-1{M}: A Dataset and Benchmark for Large Scale Face Recognition},
+        booktitle = {European Conference on Computer Vision},
+        year = {2016},
+        organization={Springer}}</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

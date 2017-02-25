@@ -7,14 +7,17 @@
 
     {% include header.html %}
 
-    <div class="container"
+    <div class="container">
         <div class="page-content">
             <div class="wrap">
             {{ content }}
             </div>
         </div>
     </div>
-
+    <br>
+    <br>
+    <br>
+    <br>
     {% include footer.html %}
 
     <!-- mathjax -->
@@ -23,6 +26,21 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>    
     <!-- boostrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+        parts = this.location.pathname.split('/').filter(function(el) {return el.length != 0});
+        if (parts.length == 0)
+        {
+            $('a[href="/"]').parents('li,ul').addClass('active');
+        }
+        else
+        {
+            for (var i = 0; i < parts.length; i++)
+            {
+                $('a[href*="' + parts[i] + '"]').parents('li,ul').addClass('active');
+            }
+        }
+    </script>
+
   </body>
 
 </html>
