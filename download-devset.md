@@ -4,7 +4,7 @@ title: Development Set
 permalink: /download/devset
 ---
 
-### Development data set can be downloaded [here](https://msceleb.blob.core.windows.net/ms-celeb-v1-dev?restype=container&amp;comp=list)
+### Development data set can be downloaded [here](https://1drv.ms/f/s!AsQPov4_i5H0gR04lUOlx0Po3NJ_)
 **Purpose**: This data has 6 files. Each file contains 500 face images and labels, which can be used to develop/verify your recognition algorithms. They may also be used during the dry-run stage. 
   * DevSet1: "Hard Set" can be used to test the robustness of an algorithm on illumination, pose, resolution, etc. 
   * DevSet2: "Random Set" can be used to test the coverage of an algorithm among the 1M entities. Both of these two sets include cropped and aligned face images.

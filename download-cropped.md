@@ -8,9 +8,8 @@ permalink: /download/cropped
 
 **Purpose**: Faces are cropped with enough background region, and meant to let participants run their own face detector and alignment for more flexibility.
 ![Alt](../assets/dataset/irc_facecroppedsample.jpg "irc_facecroppedsample")
-* Two forms (data are the same)
-  * Compressed to one big zip File: 104GB, [download](https://msceleb.blob.core.windows.net/ms-celeb-v1-zip/MsCelebV1-Faces-Cropped.zip), [MD5](https://msceleb.blob.core.windows.net/ms-celeb-v1-zip/MsCelebV1-Faces-Cropped.zip.md5)
-  * Split to multiple 20GB files: [File URL List](https://msceleb.blob.core.windows.net/ms-celeb-v1-cropped-split?restype=container&amp;comp=list), [MD5](https://msceleb.blob.core.windows.net/ms-celeb-v1-cropped-split/md5.txt)
+* Download link
+  * OneDrive: 14 files, 106GB [download](https://1drv.ms/f/s!AsQPov4_i5H0a3PQxcNHK39AW70)
 * Some statistics:
   * \# of Entities: 99,892
   * \# of Lines: 8,456,240

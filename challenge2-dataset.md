@@ -16,7 +16,7 @@ This dataset is provided to build models with general facial perceptions. For ex
 
 2, Novel set
 
-This dataset contains 1000 celebrities, who are NOT included in the 20K celebrity list in the base set. There are limited number (1, 2, 5, 10) 
+This dataset contains 1000 celebrities, who are NOT included in the 20K celebrity list in the base set. There are limited number (1, 2, 5) 
 of training images for each celebrity in this dataset. Participants are required to train models using the images in this dataset to recognize the same 1000 celebrities in the test set.  
 
 3, Test set

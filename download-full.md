@@ -7,9 +7,8 @@ permalink: /download/full
 ### Full ImageThumbnails data
 ![Alt](../assets/dataset/irc_imagethumbnailssample.jpg "irc_imagethumbnailssample")
 **Purpose**: Whole images are down sampled to up to 300*300 thumbnails, which are meant to provide the complete contextual information of the faces.
-* Two forms (data are the same)
-  * Compressed to one big zip File: 150GB, [download](https://msceleb.blob.core.windows.net/ms-celeb-v1-zip/MsCelebV1-ImageThumbnails.zip), [MD5](https://msceleb.blob.core.windows.net/ms-celeb-v1-zip/MsCelebV1-ImageThumbnails.zip.md5)
-  * Split to multiple 20GB files: [File URL List](https://msceleb.blob.core.windows.net/ms-celeb-v1-split?restype=container&amp;comp=list), [MD5](https://msceleb.blob.core.windows.net/ms-celeb-v1-split/MD5.txt)
+* Download link
+  * OneDrive: 20 files, 158GB [download](https://1drv.ms/f/s!AsQPov4_i5H0gQPHgjJpuruGCOs1)
 * Some statistics:
   * \# of Entities: 99,952
   * \# of Lines: 10,490,534
