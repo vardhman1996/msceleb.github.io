@@ -4,7 +4,7 @@ title: LSAligned
 permalink: /download/lowshot
 ---
 
-**Purpose**: This data set is used to support the low shot learning challenge [here](/challenge2/2017).
+**Purpose**: This data set is used to support the low shot learning challenge [here](/challenge2/2017). We provide aligned version (face region is cropped and aligned) here. If non-aligned version is needed, please use ImageURL to fetch from the cropped version [here](/download/cropped). 
 * Download link
   * Base Set: 22GB, [download](https://msceleb1mdata.blob.core.windows.net/trainingls/TrainData_Base.zip)
   * Novel Set: 26MB, [download](https://msceleb1mdata.blob.core.windows.net/trainingls/TrainValData_lowshot.tsv)  
