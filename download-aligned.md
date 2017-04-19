@@ -7,7 +7,8 @@ permalink: /download/aligned
 ![Alt](../assets/dataset/irc_facealignedsample.jpg "irc_facealignedsample")
 **Purpose**: Faces are aligned by MSR's algorithm, and meant to let participants directly train models if they don't have face detector and alignment modules at hand. We will use the same alignment approach on DevSet and MeasurementSet.
 * Download link
-  * OneDrive: 8 files, 60GB [download](https://1drv.ms/f/s!AsQPov4_i5H0bOnQmai3Mp3hFBI)
+  * Compressed to one big zip File: 60GB, [download](https://msceleb1mdata.blob.core.windows.net/training/FaceImageCroppedWithAlignment.zip)
+  * OneDrive: 8 files, 60GB [download](https://1drv.ms/f/s!AsQPov4_i5H0bOnQmai3Mp3hFBI)  
 * Some statistics:
   * \# of Entities: 99,892
   * \# of Lines: 8,456,240

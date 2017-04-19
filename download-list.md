@@ -4,8 +4,10 @@ title: EntityList
 permalink: /download/list
 ---
 
-### Complete 1M entity list can be downloaded [here](https://1drv.ms/u/s!AsQPov4_i5H0gRvC_lxBm_jE1I1N)
 **Purpose**: MIDs and names of the 1M celebrities are released for algorithm training and data collection
+* Download link
+  * Azure Blob: [download](https://msceleb1mdata.blob.core.windows.net/entityinfo/Top1M_MidList.Name.tsv)
+  * OneDrive: [download](https://1drv.ms/u/s!AsQPov4_i5H0gRvC_lxBm_jE1I1N)
 * File format: text files, each line is an record containing 2 columns, delimited by TAB.
   * Column1: Freebase MID
   * Column2: “Name String”@Language
