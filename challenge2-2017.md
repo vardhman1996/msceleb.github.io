@@ -6,7 +6,10 @@ permalink: /challenge2/2017
 
 # Low-shot Learning 
 
-## Task Description
+## Task Description: Know you at One Glance
+
+{: style="text-align:center"}
+![irc_ms-celeb-1m-sample0](../assets/image.png)
 
 Recognizing one million celebrities naturally introduces the low-shot learning problem since many celebrities only have limited number of images available for training. Though human visual intelligence has the ability to recognize novel objects from very few examples, low-shot learning with machines is still an open problem.
 
