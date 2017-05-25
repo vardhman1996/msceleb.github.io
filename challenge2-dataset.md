@@ -18,3 +18,13 @@ this dataset contains the training images for the novel set. This dataset contai
 
 * **Test set**
 Our measurement set contains a mixture of test images from both the base set and the novel set. We provide about 5 test images per celebrity in the base set while 20 images per celebrity in the novel set. We have run a de-duplicate algorithm to ensure that no test image is included in either of the training sets.
+
+## Notes about External Data Usage
+
+In the low-shot learning challenge, you can use external data (especially for the base model training), but not the images for the persons in the low-shot classes. 
+We restrict these persons in the low-shot classes only have limited (1,2,5) images for training for the sake of low-shot learning and fair comparison. 
+
+In order to remove the images for the persons in the low-shot classes, we provide the Freebase MID at the third column of [the low-shot classes data](/download/lowshot). 
+The names of the corresponding MID is located on [this page](/download/list). 
+
+Moreover, we encourage people to use the 20K celebrities in the base set to train the base model for easier comparison. According to our experiment, 20K celebrity can generate comparable results to the state of art on the LFW verification task.  

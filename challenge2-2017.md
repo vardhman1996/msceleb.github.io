@@ -36,3 +36,5 @@ By varying the recognition confidence threshold, we can determine the coverage w
 
 **Note: Commercial/public intelligent services are not allowed to be called during the evaluation, e.g. [Microsoft Cognitive Servcies](https://www.microsoft.com/cognitive-services), etc. We will detect and ban the contestants for this kind of behavior.**
 
+
+
