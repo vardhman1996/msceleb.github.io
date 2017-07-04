@@ -33,30 +33,32 @@ Participants need to register [here](http://imhub-eastus2.cloudapp.net:9999/user
 to receive the download link for these datasets.
 We will send emails with download link one week before the final results announcement (tentatively July 14th). 
 
-## Evaluation
-To obtain results with the test set, 
-participants need to upload their results after they sign in [here](http://imhub-eastus2.cloudapp.net:9999/user/sign-in). 
-We will return results within 24 hours. 
+## Code for Evaluation
 
-Please provide the experimental results in a tsv file, in which each line has the following format (delimited by tab). 
-
-* Column1: ImageURL
-* Column2: FaceID
-* Column3: MID estimated 
-* Column4: Confidence score
-
-We give sample code and sample result files (obtained with the development set)
+We give evaluation code and sample result files (obtained with the development set)
 [here](https://1drv.ms/f/s!AsQPov4_i5H0gSVo3bxDuWWNRYQU). 
 After download, please run the following command to obtain the results shown in the [paper](https://www.microsoft.com/en-us/research/publication/ms-celeb-1m-dataset-benchmark-large-scale-face-recognition-2/). 
 > python PrecisionCoverageEst.py -config Curve_Development.config -pthresh 0.95
-
-The sample results file has the following format
+This sample results file has the following format
 * Column1: Freebase MID (ground truth)
 * Column2: EntityNameString
 * Column3: ImageURL
 * Column4: FaceID
 * Column5: MID estimated 
 * Column6: Confidence score
+
+Participants can use this code to test the performance 
+of their algorithms on the development set. 
+
+To obtain results with the test set, 
+participants need to upload their results after they sign in [here](http://imhub-eastus2.cloudapp.net:9999/user/sign-in). 
+We will return results within 24 hours. 
+Please provide the experimental results in a tsv file, in which each line has the following format (delimited by tab). 
+
+* Column1: ImageURL
+* Column2: FaceID
+* Column3: MID estimated 
+* Column4: Confidence score
 
 ## More Information
 If participants use their own alignment algorithm, 
