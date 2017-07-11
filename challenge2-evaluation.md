@@ -44,7 +44,7 @@ We will rank all the participants according to their performance on the novel se
 while monitor the performance on the base set. 
 More specifically, first, participants need to achieve at least 98% top-1 accuracy on the base set to make 
 their results valid. 
-Second, the teams will be ranked according to the coverage at precision = 99% on the novel set. 
+Second, the teams will be ranked according to the coverage at precision = 99% on the novel set. (**Note: evaluate with the one example per novel class option.**)
 
 Please note this year, if the participants achieve 99% top-1 accuracy on the base set, their score will be ranked separately. 
 Next year, we will improve the minimum requirement of top-1 accuracy on the base set set to be 99%. 
