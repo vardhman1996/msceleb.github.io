@@ -27,13 +27,12 @@ has the following format (delimited by tab).
 For the test set, 
 participants need to register [here](http://imhub-eastus2.cloudapp.net:9999/user/sign-in)
 to receive the download link for these datasets.
-We will send emails with download link one week before the final results announcement (tentatively July 14th). 
+We will send emails with download link one week before the final results announcement (tentatively July 14th) -> evaluation due is changed to July 17th. 
 Please provide the experimental results in a tsv file, in which each line has the following format (delimited by tab). 
 
-* Column1: ImageURL
-* Column2: FaceID
-* Column3: MID estimated 
-* Column4: Confidence score
+* Column1: LineNumberIndex (please use the line number we offered in the test file)
+* Column2: MID estimated 
+* Column3: Confidence score
 
 Note that since we focus on low-shot learning in this challenge, 
 we only provide the aligned face option for easier comparison.  
