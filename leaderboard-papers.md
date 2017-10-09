@@ -17,9 +17,6 @@ permalink: /leaderboard/papers
 * Yu Cheng; Jian Zhao*; Zhecan Wang; Yan Xu; Karlekar Jayashree; Shengmei Shen; Jiashi Feng
  "Know You at One Glance: A Compact Vector Representation for Low-Shot Learning".
 
-* Shen Yan  
- "Learning Discriminative Face Representations with Fisher Loss".
-
 * Evgeny Smirnov*; Aleksandr Melnikov; Sergey Novoselov; Eugene Luckyanets; Galina Lavrentyeva  
  "Doppelganger Mining for Face Representation Learning".
 
