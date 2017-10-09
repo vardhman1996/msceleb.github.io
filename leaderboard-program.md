@@ -5,7 +5,7 @@ permalink: /leaderboard/program
 ---
 
 **Sat 28 October, 2017** (Sala Welles & Sala Hoffman @ ICCV Workshop)
-* 08:25 Welcom
+* 08:25 Welcome
 
 **08:30 Keynote I** 
 	
