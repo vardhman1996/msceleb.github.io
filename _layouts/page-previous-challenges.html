@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <br><br><br><br>
+            <nav class="navbar navbar-default sidebar" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                            Choose the dataset
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="iccv2017" role="tab">2017 Challenge</a></li>
+                            <li><a href="https://www.microsoft.com/en-us/research/project/msr-image-recognition-challenge-irc/" role="tab">2016 Challenge</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="col-md-9">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="tab-content">
+                        {{ content }}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
